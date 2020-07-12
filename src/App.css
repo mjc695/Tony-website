@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: 	rgb(242, 237, 197);
 }
 
 .App-logo {
@@ -12,27 +13,100 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+/* @media (prefers-reduced-motion: no-preference) {
+  .text-wrapper {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+/* #monitor{
+  animation: text-wrapper 1s ease-in-out forwards;
+} */
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  /* color: white; */
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+.navbar{
+  position: absolute;
+  top: 2vh;
+  right: 10vw;
+}
+
+.nav-list{
+  display: flex;
+  flex-direction: row;
+}
+
+.facebook-logo{
+  padding: 5px;
+  width: 8vw;
+}
+
+
+/* titling */
+.text-wrapper{
+  pointer-events: none;
+  animation: text-wrapper-shift 1s ease-in-out forwards;
+}
+
+@keyframes text-wrapper-shift {
+  from{
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+  to{
+    transform: translateY(-0);
+    opacity: 1;
+  }
+}
+
+.djwiz{
+  color: black;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.tonyjones{
+  color: black;
+}
+.text-info{
+  /* color : red; */
+}
+
+.smaller-text{
+  padding: 10px;
+}
+
+.tony-pic{
+  height: 40vh;
+  animation: tony-pic-fadeIn 3s ease-in-out forwards;
+}
+
+@keyframes tony-pic-fadeIn {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
