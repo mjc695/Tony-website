@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Tony-website/static/css/main.c5ef0e2f.chunk.css",
+    "main.js": "/Tony-website/static/js/main.e72cf04e.chunk.js",
+    "main.js.map": "/Tony-website/static/js/main.e72cf04e.chunk.js.map",
+    "runtime-main.js": "/Tony-website/static/js/runtime-main.2dcbd220.js",
+    "runtime-main.js.map": "/Tony-website/static/js/runtime-main.2dcbd220.js.map",
+    "static/js/2.4f4d1fd8.chunk.js": "/Tony-website/static/js/2.4f4d1fd8.chunk.js",
+    "static/js/2.4f4d1fd8.chunk.js.map": "/Tony-website/static/js/2.4f4d1fd8.chunk.js.map",
+    "index.html": "/Tony-website/index.html",
+    "precache-manifest.2607af4a9d194f913b6572e869f81242.js": "/Tony-website/precache-manifest.2607af4a9d194f913b6572e869f81242.js",
+    "service-worker.js": "/Tony-website/service-worker.js",
+    "static/css/main.c5ef0e2f.chunk.css.map": "/Tony-website/static/css/main.c5ef0e2f.chunk.css.map",
+    "static/js/2.4f4d1fd8.chunk.js.LICENSE.txt": "/Tony-website/static/js/2.4f4d1fd8.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/Tony-website/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2dcbd220.js",
+    "static/js/2.4f4d1fd8.chunk.js",
+    "static/css/main.c5ef0e2f.chunk.css",
+    "static/js/main.e72cf04e.chunk.js"
+  ]
+}
