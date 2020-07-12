@@ -23,7 +23,7 @@ function App() {
             </div>
           </div>
         </div>
-        <img className='tony-pic' src='/tony-pic.jpg' alt='/logo192.png' />
+        <img className='tony-pic' src='https://mjc695.github.io/Tony-website/tony-pic.jpg' alt='https://mjc695.github.io/Tony-website/logo192.png' />
       </header>
     </div>
   );

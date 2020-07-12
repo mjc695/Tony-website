@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className='navbar'>
       <div className='nav-list'>
-        <img className='facebook-logo' src={'/facebook-logo/facebook-logo2.png'} alt={'/facebook-logo/facebook-logo2.png'} onClick={() => window.open('https://www.facebook.com/profile.php?id=100010560219319', '_blank')} />
+        <img className='facebook-logo' src={'https://mjc695.github.io/Tony-website//facebook-logo/facebook-logo2.png'} alt={'https://mjc695.github.io/Tony-website/facebook-logo/facebook-logo2.png'} onClick={() => window.open('https://www.facebook.com/profile.php?id=100010560219319', '_blank')} />
 
       </div>
     </div>
