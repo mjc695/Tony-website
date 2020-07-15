@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: 	rgb(242, 237, 197);
+  background-color: 	rgb(249, 246, 213);
 }
 
 .App-logo {
@@ -57,6 +57,7 @@
 
 /* titling */
 .text-wrapper{
+  top: 50px;
   pointer-events: none;
   animation: text-wrapper-shift 1s ease-in-out forwards;
 }
@@ -75,6 +76,7 @@
 .djwiz{
   color: black;
   font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 10vh;
 }
 
 .tonyjones{
@@ -85,10 +87,24 @@
 }
 
 .smaller-text{
-  padding: 10px;
+  /* padding: 10px; */
 }
 
-.tony-pic{
+.browser-pic{
+  display: flex;
+  flex-direction: row;
+}
+
+.phone-number{
+  color: rgb(74, 74, 74)
+}
+
+.tony-pic-browser{
+  height: 55vh;
+  animation: tony-pic-fadeIn 3s ease-in-out forwards;
+  padding: 2vw;
+}
+.tony-pic-mobile{
   height: 40vh;
   animation: tony-pic-fadeIn 3s ease-in-out forwards;
 }
